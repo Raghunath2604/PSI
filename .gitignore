@@ -1,0 +1,65 @@
+# ─── Compiled Executables ───────────────────────────────────
+*.exe
+*.out
+*.bin
+
+# ─── Build Artifacts ────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.make
+*.cmake
+!CMakeLists.txt
+
+# ─── Object / Dependency Files ──────────────────────────────
+*.o
+*.obj
+*.d
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+
+# ─── Generated Output Files (from DPI engine runs) ──────────
+output*.pcap
+*_capture.pcap
+*_report.json
+*_report.csv
+flows.csv
+report.json
+dpi_live_capture.pcap
+
+# ─── Debug / Log / Temp Files ───────────────────────────────
+*.txt.bak
+gpp_*.txt
+*_errors.txt
+*_out.txt
+simple_*.txt
+compile_*.txt
+
+# ─── IDE / Editor ───────────────────────────────────────────
+.vscode/
+.idea/
+*.user
+*.suo
+.vs/
+*.code-workspace
+
+# ─── Windows ────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ─── macOS ──────────────────────────────────────────────────
+.DS_Store
+__MACOSX/
+
+# ─── Python ─────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ─── Keep test PCAP (needed for testing) ────────────────────
+!test_dpi.pcap
